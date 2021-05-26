@@ -1,26 +1,125 @@
-/*reset*/
-* {
+/*reset pagina*/
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/* generico*/
+/*selettori per tutta la pagina*/
 body{
     background-color: #f6f8f9;
     font-family: Arial, Helvetica, sans-serif;
 }
-.header{
-    height: 70px;
+
+header{
     background-color: white;
+    height: 70px;
     margin-bottom: 40px;
     padding: 10px 20px;
 }
+
 #logo{
     height: 100%;
     vertical-align: middle;
 }
+
 #logo-text{
     font-size: 38px;
     font-weight: 900;
     vertical-align: middle;
+}
+
+#header-button{
+    background-color: white;
+    height: 50px;
+    margin: 0px 180px;
+    margin-bottom: 5px;
+    padding: 15px 50px;
+}
+.first-button{
+    background-color: rgb(34, 143, 246);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 70px;
+}
+
+.second-button{
+    background-color: white;
+    color: rgb(83, 83, 83);
+    height: 30px;
+    width: 90px;
+    padding: 0px 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border-color: rgb(231, 231, 231);
+}
+
+#description-list{
+    background-color: rgb(255, 255, 255);
+    margin: 2px 180px;
+    padding: 50px 0px;
+}
+
+.header-title{
+    font-size: 18px;
+    margin-top: 150px;
+    padding: 15px 50px;
+    font-weight: 900;   
+}
+
+.element-list{
+    font-size: 18px;
+    padding: 15px 50px;
+    color: rgb(51, 50, 50);
+    font-weight: 200;
+}
+
+.cerhio{
+    width: 20px;
+}
+
+#editorial-button{
+    background-color: rgb(34, 143, 246);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 70px;
+}
+
+#q1-goals{
+    background-color: rgb(130, 8, 245);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 80px;
+}
+
+#recruiting{
+    background-color: rgb(86, 145, 200);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 80px;
+}
+
+#mobile{
+    background-color: rgb(246, 104, 9);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 70px;
 }

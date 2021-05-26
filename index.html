@@ -8,16 +8,61 @@
     <title>Toobolist</title>
 </head>
 <body>
-    <!--Intestazione-->
-    <header class="header">
-        <!--Logo e Titolo-->
-        <img id="logo" src="./img/Logo.png" alt="Logo">
+    <!--Intestazione pagina-->
+    <header>
+        <!--Logo pagina-->
+        <img id="logo" src="./img/Logo.png" alt="logo">
         <span id="logo-text">Toboolist</span>
     </header>
-
-
     <main>
         <!--Corpo della pagina-->
+        <div id="header-button">
+            <button class="first-button">Add Task</button><button class="second-button">Add section</button>
+        </div>
+
+        <!--lista della pagina-->
+        <div id="description-list">
+            <span class="header-title">&#9207;New Task</span>
+            <!--elementi della lista-->
+            <section class="element-list">
+                <ul>                    
+                    <span class="cerchio">&#9989;</span>Quarterly Newsletter <button id="editorial-button">Editorial</button>
+                </ul>                
+            </section>
+            <!--seconda parte-->
+            <div>
+                <span class="header-title">&#9207;Today</span>
+                <section class="element-list">
+                    <ul>                    
+                        <span class="cerchio">&#9989;</span>Recruiting blog post <button id="editorial-button">Editorial</button>
+                    </ul>
+                    
+                </section>
+                <section class="element-list">
+                    <ul>                    
+                        <span class="cerchio">&#9989;</span>Mobile app luanunch <button id="q1-goals">Q1 Goals</button>
+                    </ul>
+                    
+                </section>
+                <section class="element-list">
+                    <ul>                    
+                        <span class="cerchio">&#10060;</span>Interview John H. <button id="recruiting">Recruiting</button>
+                    </ul>
+                    
+                </section>
+                <section class="element-list">
+                    <ul>                    
+                        <span class="cerchio">&#9989;</span>Summit update to mobiile storefronts<button id="mobile">Mobile</button>
+                    </ul>
+                    
+                </section>
+            </div>
+
+            <div>
+                <span class="header-title">&#9207;Upcoming</span>
+            </div>
+        </div>
+
     </main>
     
     
