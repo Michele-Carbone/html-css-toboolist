@@ -123,3 +123,24 @@ header{
     height: 30px;
     width: 70px;
 }
+#website{
+    background-color: rgb(246, 9, 175);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 70px;
+}
+
+#sales{
+    background-color: rgb(139, 255, 30);
+    color: white;
+    border-style: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding: 0px 5px;
+    height: 30px;
+    width: 70px;
+}
