@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,92 +8,65 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Toobolist</title>
 </head>
+
 <body>
     <!--Intestazione pagina-->
-    <header>
+    <header class="bg-white">
         <!--Logo pagina-->
         <img id="logo" src="./img/Logo.png" alt="logo">
-        <span id="logo-text">Toboolist</span>
+        <h1 id="logo-text">Toobolist</h1>
     </header>
     <main>
-        <!--Corpo della pagina-->
-        <div id="header-button">
-            <button class="first-button">Add Task</button><button class="second-button">Add section</button>
-        </div>
-
-        <!--lista della pagina-->
-        <div id="description-list">
-            <span class="header-title">&#9207;New Task</span>
-            <!--elementi della lista-->
-            <section class="element-list">
-                <ul>                    
-                    <span class="cerchio">&#9989;</span>Quarterly Newsletter <button id="editorial-button">Editorial</button>
-                </ul>                
-            </section>
-            <!--seconda parte-->
-            <div>
-                <span class="header-title">&#9207;Today</span>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Recruiting blog post <button id="editorial-button">Editorial</button>
-                    </ul>
-                    
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Mobile app luanunch <button id="q1-goals">Q1 Goals</button>
-                    </ul>
-                    
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#10060;</span>Interview John H. <button id="recruiting">Recruiting</button>
-                    </ul>
-                    
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Summit update to mobiile storefronts<button id="mobile">Mobile</button>
-                    </ul>
-                    
-                </section>
+        <div class="container bg-white rounded">
+            <!--Corpo della pagina-->
+            <div id="header-button">
+                <button class="btn btn-blue">Add Task</button>
+                <button class="btn btn-white">Add section</button>
             </div>
 
-            <div>
-                <span class="header-title">&#9207;Upcoming</span>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#10060;</span>Schedule meeting with Alex
+            <!--lista della pagina-->
+            <div class="tasks">
+                <h3 class="task-title">&blacktriangledown;New Task</h3>
+                <ul>
+                    <li class="circle done">Quarterly Newsletter<button class="btn-tasks editorial">Editorial</button>
+                    </li>
+                </ul>
+                <!--seconda parte-->
+                <div>
+                    <h3 class="task-title">&blacktriangledown;Today</h3>
+                    <ul>
+                        <li class="circle done">Recruiting blog post<button
+                                class="btn-tasks editorial">Editorial</button></li>
+                        <li class="circle done">Mobile app luanunch<button class="btn-tasks q1-goals">Q1 Goals</button>
+                        </li>
+                        <li class="circle undone">Interview John H. <button
+                                class="btn-tasks recruiting">Recruiting</button></li>
+                        <li class="circle done">Summit update to mobiile storefronts<button
+                                class="btn-tasks mobile">Mobile</button>
+                        </li>
                     </ul>
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Schedule meeting with Alex <button id="website">Website</button>
-                    </ul>
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Schedule meeting with Alex <button id="sales">Sales</button>
-                    </ul>
-                </section>
-                <section class="element-list">
-                    <ul>                    
-                        <span class="cerchio">&#9989;</span>Schedule meeting with Alex <button id="editorial-button">Editorial</button>
-                    </ul>             
-                </section>
-            </div>
+                </div>
 
+                <div>
+                    <h3 class="task-title">&blacktriangledown;Upcoming</h3>
+                    <ul>
+                        <li class="circle undone">Schedule meeting with Alex
+                        <li class="circle done">Homepage refresh<button class="btn-tasks website">Website</button></li>
+                        <li class="circle done">Onboard new Sales team members<button
+                                class="btn-tasks sales">Sales</button>
+                        </li>
+                        <li class="circle done">Review editorial calendar<button
+                                class="btn-tasks editorial">Editorial</button>
+                    </ul>
+                    </section>
+                </div>
+            </div>
     </main>
-    
-    
+
+
     <footer>
 
     </footer>
-    
-    <!---->
-    <!---->
-    <!---->
-    <!---->
-    <!---->
 </body>
+
 </html>
